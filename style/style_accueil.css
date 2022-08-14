@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&wght@900&display=swap');/*importation de la police*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Raleway:wght@900&display=swap');
+
+body{
+ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+   
+    background-repeat: no-repeat ;
+    background-position: center; /* Center the image */
+    background-size: cover;
+   }
+
+
+       h1{
+            
+            color: aqua;
+            margin-left: 50px;
+            font-size: 70px;
+            font-family: 'Raleway', serif;
+           
+        }
+        .box{
+            
+            border: solid 1px;
+            margin-right: 700px;
+            margin-left: 5Opx;
+        }

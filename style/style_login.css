@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&wght@900&display=swap');/*importation de la police*/
+
+
+body{
+    background-color:rgba(43, 111, 190, 0.4);
+   
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+   }
+h1{
+   
+    margin-left: 230px;
+    
+    
+     
+}
+span{
+    color: orange;
+    font-size: 20px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+label{
+    
+    font-size: 19px;
+}
+
+.formulaire{
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+}
+
+.formulaire form{
+    width: 500px;
+    height: 100px;
+    padding: 50px 50px 30px 50px;
+    border-radius: 25px;   
+    display: table;
+      
+    background-color: white;
+    
+}
+
+.separation
+{
+    
+    width: 450px;
+    height: 3px;
+    background-color: #747cdf;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+input{
+    width: 500px;
+    height: 40px;
+}
+
+  .pied-formulaire button
+{
+  width: 150px;
+    background-color: #747cdf;
+    color: white;
+    font-size: 15px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    transition: transform 0.5s; /*determine le temps qu'il mettra pour s'agrandir*/
+        
+}
+
+.pied-formulaire button:hover
+{
+   transform: scale(1.05) /* permet de modifier la taille du bouton si on passe le curseur dessus*/
+              
+}

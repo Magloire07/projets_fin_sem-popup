@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');/*importation de la police*/
+
+
+body{
+    
+   
+    background-image: url(../images/background.jpg);
+  
+    background-repeat: no-repeat ;
+    background-position: center; /* Center the image */
+    background-size: cover;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+   }
+h1{
+    margin-left: 500px;
+}
+span{
+    color: orange;
+    font-size: 20px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+label{
+    
+    font-size: 19px;
+}
+
+.formulaire{
+    width: 1500px;
+    height: 600px;
+    margin-bottom: 160px;
+    align-items: center;
+     margin-left: 175px;
+}
+
+.formulaire form{
+    width: 1200px;
+    height: 100px;
+    padding: 0px 0px 20px 30px;
+    border-radius: 25px;   
+    display: table;
+      
+    background-color: white;
+    
+}
+
+.separation
+{
+    
+    width: 1100px;
+    height: 3px;
+    background-color: #747cdf;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    
+}
+
+.formulaire .gauche , .formulaire .droite{
+    width: 40%;
+    display: inline-block;
+    margin: 50px;
+    
+}
+
+input{
+    width: 100%;
+    height: 40px;
+}
+
+  .pied-formulaire button
+{
+  width: 150px;
+    background-color: #747cdf;
+    color: white;
+    font-size: 15px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    transition: transform 0.5s; /*determine le temps qu'il mettra pour s'agrandir*/
+        
+}
+
+.pied-formulaire button:hover
+{
+   transform: scale(1.05) /* permet de modifier la taille du bouton si on passe le curseur dessus*/
+              
+}
